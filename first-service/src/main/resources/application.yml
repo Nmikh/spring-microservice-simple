@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: first-service
+server:
+  port: 8081
+
+eureka:
+  client:
+    initial-instance-info-replication-interval-seconds: 2
+    instance-info-replication-interval-seconds: 1
+    registry-fetch-interval-seconds: 1

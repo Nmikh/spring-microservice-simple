@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: second-service
+server:
+  port: 8082
+
+eureka:
+  client:
+    initial-instance-info-replication-interval-seconds: 2
+    instance-info-replication-interval-seconds: 1
+    registry-fetch-interval-seconds: 1
